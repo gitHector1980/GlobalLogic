@@ -50,7 +50,7 @@ public class GreenKart {
 		String verifyElement = driver.findElement(cartCounter).getText();
 
 		if ("8".equals(verifyElement)) {
-			System.out.println("Son 8 elementos");
+			System.out.println("Son 8 elementos XD");
 		}
 
 		Assert.assertEquals("8", verifyElement);
@@ -73,7 +73,7 @@ public class GreenKart {
 
 	@AfterEach
 	public void tearDown() {
-		driver.quit();
+		//driver.quit();
 
 	}
 
